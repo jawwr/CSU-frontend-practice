@@ -200,8 +200,34 @@ body {
 }
 
 .hero-3d{
+    position: relative;
     width: 590px;
     height: 644px;
+}
+
+.hero-3d img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.hero-3d__pose {
+    width: 590px;
+    height: 644px;
+}
+
+.hero-3d__stand {
+    width: 565px;
+    height: 360px;
+    padding-top: 116px;
+    padding-left: 57px;
+}
+
+.hero-3d__bubble {
+    width: 233px;
+    height: 153px;
+    padding-left: 388px;
+    padding-top: 421px;
 }
 
 .hero-text {
