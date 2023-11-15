@@ -126,3 +126,159 @@ body {
     background: #9F3919;
     color: white;
 }
+
+
+
+
+
+
+
+.nav-section {
+    margin-top: 30px;
+    width: 1070px;
+    height: 60px;   
+    display: flex;
+}
+
+.nav-logo {
+    width: 200px;
+    height: 40px;
+}
+
+.nav-menu {
+    width: 327px;
+    height: 32px;
+    padding:0px 165px;
+    display: flex;
+}
+
+.nav-menu__item {
+    color: #696871;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.nav-menu__selected-item {
+    color: #19191B;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #5454D4;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+.nav-menu__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-button {
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+
+
+.hero-section {
+    margin-top: 100px;
+    align-items: center;
+    height: 644px;
+    display: flex;
+}
+
+.hero-3d{
+    position: relative;
+    width: 590px;
+    height: 644px;
+}
+
+.hero-3d img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.hero-3d__pose {
+    width: 590px;
+    height: 644px;
+}
+
+.hero-3d__stand {
+    width: 565px;
+    height: 360px;
+    padding-top: 116px;
+    padding-left: 57px;
+}
+
+.hero-3d__bubble {
+    width: 233px;
+    height: 153px;
+    padding-left: 388px;
+    padding-top: 421px;
+}
+
+.hero-text {
+    margin-right: 24px;
+    width: 470px;
+}
+
+.hero-text__title {
+    color: #19191B;
+    font-family: DM Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px; 
+    letter-spacing: -2.5px;
+}
+
+.hero-text__subtitle {
+    color: #696871;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -0.625px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.hero-text__more-info {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text__button {
+    width: 215px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;    
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.hero-text__svg {
+    padding-left: 40px;
+    width: 60px;
+    height: 60px;   
+}
